@@ -20,3 +20,6 @@
 •	python3 conv_F_to_U.py
 Στο οποίο μπορούμε και μετατρέπουμε τα pair forces (φάκελος data_Fp)  σε pair potential (φάκελος data_Up) και να κάνουμε ένα αντίστοιχο για τo potential μέσω του αρχείου make_plots.py  καλώντας την συνάρτηση Compare_best_models_u. 
 
+Για το GAP (trimer only)
+
+To prepare του kernel(trimer) matrix είναι έτοιμο, απλά πολυ χρονοβόρο (για 5 samples χρειάζεται 2,5 μέρες). Και για το αρχείο sep_train_test.py ισχυει το ίδιο, δηλαδή είναι έτοιμο (όχι χρονοβόρο). Το 3ο αρχείο train_GAP δεν υπάρχει καθώς δεν ύπηρχε αρκετός χρόνος για την υλοποιηση του, η οποία θα βασιζόταν στην χρήση του best GAP(dimer) model. 
